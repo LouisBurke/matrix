@@ -1,41 +1,37 @@
 {
     "sensor": "/sensor/hip",
     "sendTime": "2017-07-28T00:02:57.191Z",
-    "data": [{
-        "sensor": "/sensor/hip",
-        "sendTime": "2017-07-28T00:02:57.191Z",
-        "data": {
+    "data": {
+        "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+        "@type": "http://purl.imsglobal.org/caliper/v1/SessionEvent",
+        "actor": {
             "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
-            "@type": "http://purl.imsglobal.org/caliper/v1/SessionEvent",
-            "actor": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
-                "@id": "9959521c-795b-4b18-8bb4-d22ac33fa632",
-                "@type": "http://purl.imsglobal.org/caliper/v1/lis/Person",
-                "name": "QATeacher1_92000953_cert",
-                "description": null,
-                "extensions": {
-                    "userAgent": "Apache-HttpClient/4.5.3 (Java/1.8.0_74)",
-                    "orgRefId": "b9c55ad4-fad7-49a4-ae71-6fcf6e2f9940",
-                    "orgId": "b9c55ad4-fad7-49a4-ae71-6fcf6e2f9940",
-                    "schoolPid": "92000953",
-                    "districtPid": "92000952",
-                    "roles": ["ROLE_TEACHER"]
-                },
-                "dateCreated": null,
-                "dateModified": null
+            "@id": "9959521c-795b-4b18-8bb4-d22ac33fa632",
+            "@type": "http://purl.imsglobal.org/caliper/v1/lis/Person",
+            "name": "QATeacher1_92000953_cert",
+            "description": null,
+            "extensions": {
+                "userAgent": "Apache-HttpClient/4.5.3 (Java/1.8.0_74)",
+                "orgRefId": "b9c55ad4-fad7-49a4-ae71-6fcf6e2f9940",
+                "orgId": "b9c55ad4-fad7-49a4-ae71-6fcf6e2f9940",
+                "schoolPid": "92000953",
+                "districtPid": "92000952",
+                "roles": ["ROLE_TEACHER"]
             },
-            "action": "http://purl.imsglobal.org/vocab/caliper/v1/action#LoggedIn",
-            "object": {
-                "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
-                "@id": "cert.hmhco.com/ED",
-                "@type": "http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
-                "name": "ED",
-                "description": null,
-                "extensions": {},
-                "dateCreated": null,
-                "dateModified": null
-            },
-            "eventTime": "2017-07-28T00:02:56.942Z"
-        }
-    }]
+            "dateCreated": null,
+            "dateModified": null
+        },
+        "action": "http://purl.imsglobal.org/vocab/caliper/v1/action#LoggedIn",
+        "object": {
+            "@context": "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+            "@id": "cert.hmhco.com/ED",
+            "@type": "http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+            "name": "ED",
+            "description": null,
+            "extensions": {},
+            "dateCreated": null,
+            "dateModified": null
+        },
+        "eventTime": "2017-07-28T00:02:56.942Z"
+    }
 }
