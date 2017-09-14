@@ -14,7 +14,7 @@ with open("./matrix.json") as matrix_json:
 while True:
     temp_json=deepcopy(JSON)
     temp_json["data"]["@id"] = str(uuid4())
-    temp_json["data"]["actor"]["extensions"]["orgId"] = str(uuid4())
+    temp_json["data"]["actor"]["@id"] = str(uuid4())
     temp_json["data"]["actor"]["extensions"]["orgRefId"] = str(uuid4())
     temp_json["data"]["eventTime"] = datetime.now().isoformat()
     temp_json["sendTime"] = datetime.now().isoformat()
